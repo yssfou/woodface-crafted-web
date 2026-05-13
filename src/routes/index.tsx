@@ -364,7 +364,7 @@ function Index() {
                 <ArrowRight className="h-4 w-4 transition-transform duration-500 group-hover:translate-x-1" />
               </a>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/woodface.creations/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-4 text-sm text-muted-foreground hover:text-foreground hover:border-primary/50 transition-all duration-500"
