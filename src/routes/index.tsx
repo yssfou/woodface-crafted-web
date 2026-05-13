@@ -383,6 +383,7 @@ function Index() {
             Wood<span className="text-gradient-ember">Face</span>
             <span className="text-muted-foreground/50">© {new Date().getFullYear()}</span>
           </div>
+          <div className="italic">Créé par <span className="text-foreground font-medium not-italic">Ourabi Youssef</span></div>
           <div className="uppercase tracking-[0.25em]">#bois · #palette · #decoration</div>
         </div>
       </footer>
