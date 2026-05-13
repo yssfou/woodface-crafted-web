@@ -96,7 +96,7 @@ function Index() {
             height={1200}
             className="h-full w-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-background" />
           <div className="absolute inset-0 bg-grain mix-blend-overlay opacity-40" />
         </motion.div>
 
@@ -108,13 +108,13 @@ function Index() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
-            className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-card/40 px-4 py-1.5 text-xs uppercase tracking-[0.2em] text-muted-foreground backdrop-blur"
+            className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-4 py-1.5 text-xs uppercase tracking-[0.2em] text-white/90 backdrop-blur"
           >
-            <Leaf className="h-3 w-3 text-primary" />
+            <Leaf className="h-3 w-3 text-primary-foreground" />
             Atelier d'art en bois recyclé
           </motion.span>
 
-          <h1 className="max-w-5xl font-display text-6xl leading-[0.95] md:text-8xl lg:text-[9rem]">
+          <h1 className="max-w-5xl font-display text-6xl leading-[0.95] md:text-8xl lg:text-[9rem] text-white drop-shadow-[0_4px_30px_rgba(0,0,0,0.5)]">
             <motion.span
               initial={{ opacity: 0, y: 60 }}
               animate={{ opacity: 1, y: 0 }}
@@ -137,7 +137,7 @@ function Index() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1, duration: 0.8 }}
-            className="mt-8 max-w-xl text-base md:text-lg text-muted-foreground"
+            className="mt-8 max-w-xl text-base md:text-lg text-white/85"
           >
             À partir de palettes récupérées, nous façonnons des créations artistiques pour le confort
             et le bien‑être de tous.
